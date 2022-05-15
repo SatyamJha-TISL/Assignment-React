@@ -1,0 +1,38 @@
+.progress-bar {
+  display: flex;
+  padding-top: 3px;
+ 
+  .bar{
+    width: 34.33px;
+    height: 4px;
+    margin-right: 2px;
+    background-color: #ece7e3   ;
+  }
+
+  input[type="range"] {
+     appearance: none;
+     -webkit-appearance: none;
+     cursor: pointer;
+     margin-top:0;
+     margin-left: 0;
+ }
+
+ input[type="range"]::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none; 
+   width: 0.00001px;
+   height:0.00001px ;
+   background:white;
+   opacity: 0;
+  }
+  input[type="range"]::-moz-range-thumb {
+    -webkit-appearance: none;
+    appearance: none; 
+    width: 0.00001px;
+    height:0.00001px ;
+    background-color:white;
+    opacity: 0;
+    
+  
+   }
+}
